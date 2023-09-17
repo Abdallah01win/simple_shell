@@ -3,6 +3,9 @@
 /**
  * execute_command - Executes the given command.
  * @command: The command to execute.
+ * @args: The command arguments.
+ *
+ * Return: Always 0
  */
 
 int execute_command(char *command, char *args[])
