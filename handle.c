@@ -35,7 +35,7 @@ void handle_user_input(void)
 			{
 				args[arg_count] = arg_token;
 				arg_count++;
-				arg_token = sttok(NULL, " ");
+				arg_token = strtok(NULL, " ");
 			}
 			args[arg_count] = NULL; /* NULL-terminate the argument array */
 			if (arg_count > 0)

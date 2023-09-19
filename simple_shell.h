@@ -29,4 +29,4 @@ void handle_getline_error(void);
 /* Declare the external variablr */
 extern char **environ;
 
-#endif /* SIMPLE_SHELL_H
+#endif /* SIMPLE_SHELL_H */
